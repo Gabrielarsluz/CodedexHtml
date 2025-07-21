@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label id="name">Name: <input type="text" required></label>
+        <br><br>
+        <label id="review">What are you reviewing: <input type="text" required></label>
+        <br><br>
+        <label>Would you try again?</label>
+       <br><br>
+        <input type="radio" name="try-again"> Yes
+        <br>
+        <input type="radio" name="try-again"> No
+        <br>
+        <input type="radio" name="try-again"> Maybe
+        <br><br>
+        A note, 1 out of 5
+        <br>
+        <label>Overall Rating (out of 5): </label><input type="number" min="0" max="5" required/>
+        <br><br>
+        <label>My Review</label><br>
+        <br>
+        <textarea maxlength="250" rows="7" cols="42"></textarea>
+        <br><br>
+        <input type="submit" value="Submit Review">
+
+    </form>
+</body>
+</html>
